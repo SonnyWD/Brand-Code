@@ -17,9 +17,13 @@
 
       <h2>Why having a graphic chart is it important ?</h2>
       <input type="text" id="question" name="question" />
-      <h2>Enter the password here :</h2>
-      <input type="text" id="password" name="password" />
-      <button type="submit">Submit</button>
+      <form id="passwordForm">
+        <label for="password">Enter password:</label>
+        <input type="text" id="password" name="password" />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="error"></p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

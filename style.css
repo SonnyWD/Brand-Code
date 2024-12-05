@@ -4,6 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-justify: justify;
+  background-color: #bee9e8;
 }
 h1 {
   margin-bottom: 2rem;
@@ -14,7 +16,6 @@ p {
 }
 h2 {
   margin: 2rem 0 1.5rem;
-  text-align: center;
   font-family: "MuseoModerno", sans-serif;
 }
 input {
@@ -22,4 +23,19 @@ input {
   padding: 0.5rem;
   font-size: 1rem;
   display: block;
+}
+input {
+  width: 90%;
+  border: none;
+}
+button {
+  padding: 0.8rem 1rem;
+  font-size: 1.3rem;
+  background-color: #fdfdfd;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #ffb703;
 }
